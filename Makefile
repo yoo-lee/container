@@ -1,9 +1,9 @@
-NAME		= ex00
+NAME		= container
 
 CC			= c++
-SRCS		= main.cpp \
+SRCS		= ./study/4.cpp
 
-HEADERS		= easyfind.hpp
+HEADERS		= container.hpp
 
 CC_FLAGS	= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f
