@@ -1,6 +1,0 @@
-class vector
-{
-	
-}
-
-vector

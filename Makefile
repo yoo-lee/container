@@ -1,9 +1,9 @@
 NAME		= container
 
 CC			= c++
-SRCS		= ./study/4.cpp
+SRCS		= container.cpp
 
-HEADERS		= container.hpp
+HEADERS		= ./vector/vector+++.hpp
 
 CC_FLAGS	= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f
