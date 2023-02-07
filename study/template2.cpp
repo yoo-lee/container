@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stack>
-
+using namespace std;
 // template <class T>
 // class Stack
 // {
@@ -26,5 +26,6 @@ int main()
 {
     Stack<int> stack(256);
     stack.push(123);
+	// cout << stack.push(123) << endl;
     stack.pop();
 }

@@ -3,7 +3,7 @@
 using namespace std;
 
 template<typename T>
-class Test
+class Tix
 {
 	public:
 	T x;
@@ -27,7 +27,8 @@ void show(double x, double y)
 
 int main ()
 {
-	Test<int> a{1 ,2};
-	Test<double> b{1.11 ,2.22};
-	show(1.22, 2.22);
+	Tix<int> a.x = 1;
+	Tix<double> b.y = 2.22;
+	show(a.x, b.y);
+	show(a, b);
 }

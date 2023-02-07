@@ -15,7 +15,7 @@ int main ()
 {
 	const int SZ = 10;          // 要素数
     std::vector<int>v(SZ);
-    // std::vector<int>::iterator i;
+    std::vector<int>::iterator i;
 	
 	for (auto i = v.begin(); i != v.end(); i++)
 	    {
@@ -23,5 +23,5 @@ int main ()
 		cout << *i << endl;
 		}
 	auto i = v.begin();
-	// swap(*i,*(i+1));
+	swap(*i,*(i+1));
 }
