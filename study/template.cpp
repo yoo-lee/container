@@ -2,6 +2,11 @@
 #include <vector>
 #include <iostream>
 using namespace std;
+	template <typename T>
+	void f(T &a, T &b)
+	{
+		cout << a << endl;
+	}
 
 	template <typename E>
 	void swap (E &a, E &b)

@@ -14,6 +14,7 @@ class Stack
 {
 private:
     T* stack;
+    T* bash;
     int index;
 public:
     Stack(int size) : index(0) { stack = new T[size]; }

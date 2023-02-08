@@ -7,9 +7,13 @@ class Rectangle {
  public:
     Rectangle(T height, T width) : height_(height), width_(width) {}
 
+	T plus() const
+	{
+		return 
+	}
 	T minus() const
 	{
-		return height_ - width_ ;
+		return (height_ - width_);
 	}
     T Area() const {
        return height_ * width_;

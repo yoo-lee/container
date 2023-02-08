@@ -6,6 +6,7 @@ template<typename T>
 class Tix
 {
 	public:
+	T z;
 	T x;
 	T y;
 	
